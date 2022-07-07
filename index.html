@@ -5,8 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+        th {
+            border: 1px solid rgb(0, 255, 0)
+        }
+        td {
+            border: 1px solid blue
+        }
+        tr {
+            border: 1px solid red
+        }
+    </style>
 </head>
 <body>
-    <h2>4444</h2>
+    <h2>รายการสินค้า</h2>
+    <hr>
+    <!-- table create -->
+<table>
+    <thead>
+        <th>ภาพสินค้า</th>
+        <th>ชื่อสินค้า</th>
+        <th>ราคา</th>
+        <th>ซื้อสินค้า</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img border="0" src="img/Prada.jpg" atl="ปราด้า" width="100" height="100"></td>
+            <td class="center">Prada</td>
+            <td>520</td>
+            <td>NO</td>
+        </tr>
+        <tr>
+            <td> <img border="1" src="img/Dior.jpg" width="100" height="100"> </td>
+            <td>Dior</td>
+            <td>165</td>
+            <td>YES</td>
+        </tr>
+        <tr>
+            <td> <img border="2" src="img/Longchamp.jpg" width="100" height="100"> </td>
+            <td>Longchamp</td>
+            <td>541</td>
+            <td>NO</td>
+        </tr>
+        <tr>
+            <td> <img border="3" src="img/Chanel.jpg" width="100" height="100"> </td>
+            <td>Chanel</td>
+            <td>412</td>
+            <td>YES</td>
+        </tr>
+    </tbody>
+</table>
+
+
 </body>
 </html>
